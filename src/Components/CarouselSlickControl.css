@@ -1,0 +1,32 @@
+/* src/components/Carousel.css */
+.carousel {
+   width: 80%;
+   margin: auto;
+   position: relative;
+ }
+ 
+ .carousel-image {
+   width: 100%;
+   height: auto;
+ }
+ 
+ .arrow {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+   font-size: 2em;
+   padding: 10px;
+   cursor: pointer;
+   z-index: 2;
+ }
+ 
+ .arrow.next {
+   right: 0;
+ }
+ 
+ .arrow.prev {
+   left: 0;
+ }
+ 

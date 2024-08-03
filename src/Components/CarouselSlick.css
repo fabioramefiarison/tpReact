@@ -1,0 +1,11 @@
+/* src/components/Carousel.css */
+.carousel {
+   width: 60%;
+   margin: auto;
+ }
+ 
+ .carousel-image {
+   width: 100%;
+   height: auto;
+ }
+ 
